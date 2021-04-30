@@ -1,7 +1,9 @@
-#program kalkulator
+# program kalkulator
 
-##oke kita akan buat kalkulator
+## oke kita akan buat kalkulator
 - Qhin = penjumlahan dan perkalian
 - Ms = pengurangan dan pembagian
 
 sip selamat bekerja
+> jangan lupa sholat Jum'at
+> - pak Haji
