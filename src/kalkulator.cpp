@@ -37,27 +37,25 @@ int main(int argc, char const *argv[])
 balik:
     cout << "op :";
     cin >> op;
-    if (op == '+')
+    switch (op)
     {
-        cout << "hasilnya adalah :  " << endl;
-    }
-    else if (op == '-')
-    {
-        cout << "hasilnya adalah :  " << endl;
-    }
-    else if (op == '*')
-    {
-        cout << "hasilnya adalah :  " << endl;
-    }
-    else if (op == '/')
-    {
-        cout << "hasilnya adalah : " << Kalkulator1.pembagian() << endl;
-    }
-    else
-    {
-        cout << "mohon masukkan operator yang benar" << endl;
-        goto balik;
-    }
+    case '+':
 
+        break;
+    case '-':
+
+        break;
+    case '*':
+
+        break;
+    case '/':
+        cout << "hasilnya adalah : " << Kalkulator1.pembagian() << endl;
+        break;
+
+    default:
+        cout << "mohon masukkan operator yang tepat" << endl;
+        goto balik;
+        break;
+    }
     return 0;
 }
