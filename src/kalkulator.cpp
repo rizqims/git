@@ -19,6 +19,10 @@ public:
     {
         return bil1 / bil2;
     }
+
+    //TODO buat function penjumlahan
+    //TODO buat function pengurangan
+    //TODO buat function perkalian
 };
 
 int main(int argc, char const *argv[])
