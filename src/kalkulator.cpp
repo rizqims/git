@@ -19,6 +19,10 @@ public:
     {
         return bil1 / bil2;
     }
+
+    //TODO buat function penjumlahan
+    //TODO buat function pengurangan
+    //TODO buat function perkalian
 };
 
 int main(int argc, char const *argv[])
@@ -39,14 +43,17 @@ balik:
     cin >> op;
     if (op == '+')
     {
+        //ANCHOR tambah penjumlahan
         cout << "hasilnya adalah :  " << endl;
     }
     else if (op == '-')
     {
+        //ANCHOR tambah pengurangan
         cout << "hasilnya adalah :  " << endl;
     }
     else if (op == '*')
     {
+        //ANCHOR tambah tambah perkalian
         cout << "hasilnya adalah :  " << endl;
     }
     else if (op == '/')
