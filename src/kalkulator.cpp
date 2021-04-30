@@ -13,15 +13,18 @@ public:
         Kalkulator::bil1 = bill1;
         Kalkulator::bil2 = bill2;
     }
-
-    // buat function pembagian
+    // function pengurangan
+    int pengurangan()
+    {
+        return bil1 - bil2;
+    }
+    // function pembagian
     int pembagian()
     {
         return bil1 / bil2;
     }
 
     //TODO buat function penjumlahan
-    //TODO buat function pengurangan
     //TODO buat function perkalian
 };
 
@@ -39,28 +42,28 @@ int main(int argc, char const *argv[])
 
 // untuk balik bisi ada kesalahan penulisan operator
 balik:
-    cout << "op :";
+   cout << "op :";
     cin >> op;
-    switch (op)
+    if (op == '+')
     {
-    case '+':
-
-        break;
-    case '-':
-
-        break;
-    case '*':
-
-        break;
-    case '/':
-        cout << "hasilnya adalah : " << Kalkulator1.pembagian() << endl;
-        break;
-
-    default:
-        cout << "mohon masukkan operator yang tepat" << endl;
-        goto balik;
-        break;
+        cout << "hasilnya adalah :  " << endl;
     }
-    return 0;
-    // a
+    else if (op == '-')
+    {
+        cout << "hasilnya adalah :  " << endl;
+    }
+    else if (op == '*')
+    {
+        cout << "hasilnya adalah :  " << Kalkulator1.pengurangan() << endl;
+    }
+    else if (op == '/')
+    {
+        cout << "hasilnya adalah : " << Kalkulator1.pembagian() << endl;
+    }
+    else
+    {
+        cout << "mohon masukkan operator yang benar" << endl;
+        goto balik;
+    }
+
 }
