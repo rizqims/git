@@ -23,3 +23,30 @@ backup untuk switch statement,sugan bisa
     //     goto balik;
     //     break;
     // }
+
+
+
+yang if    
+    // cout << "op :";
+    // cin >> op;
+    // if (op == '+')
+    // {
+    //     cout << "hasilnya adalah :  " << endl;
+    // }
+    // else if (op == '-')
+    // {
+    //     cout << "hasilnya adalah :  " << endl;
+    // }
+    // else if (op == '*')
+    // {
+    //     cout << "hasilnya adalah :  " << endl;
+    // }
+    // else if (op == '/')
+    // {
+    //     cout << "hasilnya adalah : " << Kalkulator1.pembagian() << endl;
+    // }
+    // else
+    // {
+    //     cout << "mohon masukkan operator yang benar" << endl;
+    //     goto balik;
+    // }
