@@ -1,7 +1,7 @@
-#HALO PAK
+#program kalkulator
 
-aaasuuuuuuu
-ngehe
+##oke kita akan buat kalkulator
+- Qhin = penjumlahan dan perkalian
+- Ms = pengurangan dan pembagian
 
-
-ahsfdkhjfhsdj
+sip selamat bekerja
