@@ -1,0 +1,25 @@
+
+
+backup untuk switch statement,sugan bisa
+    // cout << "op :";
+    // cin >> op;
+    // switch (op)
+    // {
+    // case '+':
+
+    //     break;
+    // case '-':
+
+    //     break;
+    // case '*':
+
+    //     break;
+    // case '/':
+    //     cout << "hasilnya adalah : " << Kalkulator1.pembagian() << endl;
+    //     break;
+
+    // default:
+    //     cout << "mohon masukkan operator yang tepat" << endl;
+    //     goto balik;
+    //     break;
+    // }
