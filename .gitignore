@@ -1,2 +1,2 @@
-# membuat file format .exe di ignoregit commit -m "adding new files" "tambah .gitignore dan hapus .exe" 
+# membuat file format .exe di proyek tidak keliatan 
 *.exe
